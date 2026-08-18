@@ -1,51 +1,16 @@
-🎮 Memory Card Game
+# React + Vite
 
-Un jeu de memory (paires de cartes) interactif développé avec React.js et Vite. Choisissez votre difficulté et votre thème, puis retrouvez toutes les paires en un minimum de coups et de temps !
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-Afficher l'image
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-✨ Fonctionnalités
-🎚️ 4 niveaux de difficulté : Facile (6 paires), Moyen (8 paires), Difficile (12 paires), Expert (18 paires)
-🎨 4 thèmes visuels : Fruits, Animaux, Nourriture, Drapeaux
-⏱️ Suivi en temps réel : score, nombre de coups et chronomètre
-🔊 Effets sonores générés dynamiquement via la Web Audio API
-🎉 Animation de confettis à la victoire (canvas-confetti)
-📱 Interface responsive et design sombre moderne
-🛠️ Stack technique
-React.js (Hooks : useState, useEffect, useRef)
-Vite — bundler et serveur de développement
-CSS3 — mise en page et animations
-canvas-confetti — animation de victoire
-🚀 Installation
-bash
+## React Compiler
 
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-# Installer les dépendances
-npm install
+## Expanding the ESLint configuration
 
-# Lancer le serveur de développement
-npm run dev
-
-L'application sera accessible sur http://localhost:5173.
-
-📁 Structure du projet
-src/
-├── components/
-│   ├── Card.jsx           # Composant carte individuelle
-│   ├── GameHeader.jsx     # En-tête : score, coups, chrono, sélecteurs
-│   └── WinMessage.jsx     # Message de fin de partie
-├── App.jsx                # Logique principale du jeu
-├── index.css
-└── main.jsx
-🎯 Améliorations futures
- Mode multijoueur
- Thèmes personnalisés (upload d'images)
- Mode sombre / clair
-👤 Auteur
-
-Rayen Bouyahia Étudiant en Licence Informatique — ISI, Université de Tunis El Manar LinkedIn · GitHub · Portfolio
-
-📄 Licence
-
-Ce projet est open source et disponible sous licence MIT.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
